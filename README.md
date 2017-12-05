@@ -2,14 +2,14 @@
 
 Cheat sheet collection of ES6 helpers and other usefull javascript stuff
 
-#### Table of Contents
-##### 1. Regular Array Helpers : *returns array or array element*
+### Table of Contents
+#### 1. Regular Array Helpers : *returns array or array element*
 1.  [The 'forEach' Helper](#forEach)
 1. [The 'map' Helper](#map)
 1. [The 'filter' Helper](#filter)
 1. [The 'find' Helper](#find)
 
-##### 2. Condensing Array Helpers : *returns boolean or value*
+#### 2. Condensing Array Helpers : *returns boolean or value*
 1. [The 'every' Helper](#every)
 1. [The 'some' Helper](#some)
 1. [The 'reduce' Helper](#reduce)
