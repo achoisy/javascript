@@ -15,6 +15,8 @@ Cheat sheet collection of ES6 helpers and other usefull javascript stuff
 1. [The 'reduce' Helper](#reduce)
 #
 
+### 1. Regular Array Helpers
+
 #### 1.1. The 'forEach' Helper [:link:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 The ```forEach()``` method executes a provided function once for each array element. 
 ```javascript
@@ -33,7 +35,7 @@ posts.forEach((post) => {
 //      Code Refactor City
 //      The Brightest Ruby
 ```
-### 1. Regular Array Helpers
+
 #### 1.2. The 'map' Helper [:link:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 The ```map()``` method creates a new array with the results of calling a provided function on every element in the calling array.
 ```javascript
@@ -80,7 +82,7 @@ const admin = users.find(user => user.admin);
 console.log(admin);
 // expected output: { id: 3, admin: true}
 ```
-
+#
 ### 2. Condensing Array Helpers
 
 #### 2.1. The 'every' Helper [:link:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
