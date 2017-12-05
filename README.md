@@ -114,6 +114,7 @@ console.log(inProgress);
 // expected output: 'true'
 ```
 
+<a name="reduce"></a>
 #### 2.3. The 'reduce' Helper [:link:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 The ```reduce()``` method applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value.
 ```javascript
