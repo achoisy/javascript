@@ -16,7 +16,7 @@ Cheat sheet collection of ES6 helpers and other usefull javascript stuff
 #
 
 ### 1. Regular Array Helpers
-
+<a name="forEach"></a>
 #### 1.1. The 'forEach' Helper [:link:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 The ```forEach()``` method executes a provided function once for each array element. 
 ```javascript
@@ -36,6 +36,7 @@ posts.forEach((post) => {
 //      The Brightest Ruby
 ```
 
+<a name="map"></a>
 #### 1.2. The 'map' Helper [:link:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 The ```map()``` method creates a new array with the results of calling a provided function on every element in the calling array.
 ```javascript
@@ -53,6 +54,7 @@ console.log(heights);
 // expected output: heights = ['34px','54px','83px'] 
 ```
 
+<a name="filter"></a>
 #### 1.3. The 'filter' Helper [:link:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 The ```filter()``` method creates a new array with all elements that pass the test implemented by the provided function.
 
@@ -67,6 +69,7 @@ console.log(filteredNumbers);
 // expected output: [55,65,75,85,95]
 ```
 
+<a name="find"></a>
 #### 1.4. the 'find' Helper [:link:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
 The ```find()``` method returns the value of the first element in the array that satisfies the provided testing function. Otherwise *undefined* is returned.
 ```javascript
@@ -84,7 +87,7 @@ console.log(admin);
 ```
 #
 ### 2. Condensing Array Helpers
-
+<a name="every"></a>
 #### 2.1. The 'every' Helper [:link:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
 The ```every()``` method tests whether all elements in the array pass the test implemented by the provided function.
 ```javascript
@@ -100,6 +103,7 @@ console.log(hasSubmitted);
 // expected output: 'false'
 ```
 
+<a name="some"></a>
 #### 2.2. The 'some' Helper [:link:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
 The ```some()``` method tests whether at least one element in the array passes the test implemented by the provided function.
 ```javascript
