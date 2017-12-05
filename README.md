@@ -1,21 +1,19 @@
-# Javascript Cheat Sheet ES6 
+# Javascript Cheat Sheet ES6
 Cheat sheet collection of ES6 helpers and other usefull javascript stuff
 
-## Table of Contents
+#### Table of Contents
 1. Regular Array Helpers : *returns array or array element*
-[The 'forEach' Helper](#forEach)
-  [The 'map' Helper](#map)
-  [The 'filter' Helper](#filter)
-  [The 'find' Helper](#find)
+1.1 [The 'forEach' Helper](#forEach)
+1.2 [The 'map' Helper](#map)
+1.3 [The 'filter' Helper](#filter)
+1.4 [The 'find' Helper](#find)
 
 2. Condensing Array Helpers : *returns boolean or value*
-##### 1.5 [The 'every' Helper](#every)
-##### 1.5 [The 'some' Helper](#some)
-##### 1.5 [The 'reduce' Helper](#reduce)
+2.5 [The 'every' Helper](#every)
+2.5 [The 'some' Helper](#some)
+2.5 [The 'reduce' Helper](#reduce)
 
-
-<a name="forEach"></a>
-### 1.1 The 'forEach' Helper [forEach]
+1.1 The 'forEach' Helper [forEach]
 Iterates the array without any way to stop
 ```javascript
 function handlePosts() {
@@ -30,5 +28,3 @@ savePost(post);
 }
 // Execute the function for each elements of array
 ```
-
-
