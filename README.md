@@ -13,6 +13,8 @@ Cheat sheet collection of ES6 helpers and other usefull javascript stuff
 1. [The 'every' Helper](#every)
 1. [The 'some' Helper](#some)
 1. [The 'reduce' Helper](#reduce)
+
+#### 3. [Ternary Operator](#ternary)
 #
 
 ### 1. Regular Array Helpers
@@ -139,6 +141,39 @@ const deskTypes = desks.reduce(function(previous, desk) {
 console.log(deskTypes);
 // expected output: {"sitting":3,"standing":2}
 ```
+<a name="ternary"></a>
+### 3. Ternary Operator [:link:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+The ternary operator, also known as the *conditional operator*, is used as shorthand for an ```if...else``` statement.
+A ternary operator is written with the syntax of a question mark ```?``` followed by a colon ```:```.
 
+``` condition ? expr1 : expr2 ```
+If condition is true, the operator returns the value of expr1; otherwise, it returns the value of expr2.
+
+```javascript
+let age = 20;
+
+const oldEnough = (age >= 21) ? "You may enter." : "You may not enter.";
+
+console.log(oldEnough);
+// expected output: 'You may not enter.'
+```
+Multiple ternary evaluations are possible:
+```javascript
+const firstCheck = false,
+    secondCheck = false,
+    access = firstCheck ? 'Access denied' : secondCheck ? 'Access denied' : 'Access granted';
+  
+console.log(access);
+// expected output: 'Access granted'
+```
+Multiple conditions like in a multiple-conditions IF statement are also possible:
+```javascript
+const condition1 = true,
+    condition2 = false,
+    access = condition1 ? (condition2 ? 'true true': 'true false') : (condition2 ? 'false true' : 'false false');
+
+console.log(access); // logs "true false"
+// expected output: 'true false'
+```
 
 (c) Alexandre Choisy
