@@ -14,6 +14,8 @@ Cheat sheet collection of ES6 helpers and other usefull javascript stuff
 * [The 'some' Helper](#some)
 * [The 'reduce' Helper](#reduce)
 
+#
+
 #### 1.1. The 'forEach' Helper [forEach]
 Iterates the array without any way to stop.
 ```javascript
